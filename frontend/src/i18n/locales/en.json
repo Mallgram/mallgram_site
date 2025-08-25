@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "search": "Search products...",
+    "wishlist": "Wishlist",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover Amazing Products at Great Prices",
+      "subtitle": "Shop electronics, fashion, home & garden, and more",
+      "cta": "Shop Now"
+    },
+    "categories": "Shop by Category",
+    "bestSellers": "Best Sellers",
+    "recommended": "Recommended for You",
+    "newArrivals": "New Arrivals"
+  },
+  "products": {
+    "title": "Products",
+    "filters": "Filters",
+    "sortBy": "Sort by",
+    "priceRange": "Price Range",
+    "category": "Category",
+    "inStock": "In Stock",
+    "onSale": "On Sale",
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "outOfStock": "Out of Stock",
+    "viewDetails": "View Details",
+    "compare": "Compare",
+    "quickView": "Quick View"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "total": "Total",
+    "remove": "Remove",
+    "updateQuantity": "Update Quantity",
+    "savedForLater": "Saved for Later"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingAddress": "Shipping Address",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "processing": "Processing...",
+    "success": "Order placed successfully!",
+    "failed": "Payment failed. Please try again."
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email Address",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here"
+    },
+    "register": {
+      "title": "Create Your Account",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "phone": "Phone Number",
+      "agreeTerms": "I agree to the Terms and Conditions",
+      "registerButton": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in here"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "addresses": "Addresses",
+    "paymentMethods": "Payment Methods",
+    "preferences": "Preferences",
+    "security": "Security",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "orders": {
+    "title": "Order History",
+    "orderNumber": "Order #",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "viewOrder": "View Order",
+    "trackOrder": "Track Order",
+    "reorder": "Reorder",
+    "statuses": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "ai": {
+    "chatTitle": "Mallgram Assistant",
+    "placeholder": "Ask me anything about products...",
+    "send": "Send",
+    "typing": "Assistant is typing...",
+    "error": "Sorry, I'm having trouble right now. Please try again.",
+    "suggestions": [
+      "Show me black dresses under R500",
+      "What are the best smartphones?",
+      "Help me find gifts for kids",
+      "Compare laptop prices"
+    ]
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "customerService": "Customer Service",
+    "myAccount": "My Account",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe to get updates on new products and offers",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 Mallgram. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "apply": "Apply",
+    "currency": "R"
+  },
+  "countries": {
+    "za": "South Africa",
+    "cm": "Cameroon"
+  },
+  "currencies": {
+    "ZAR": "R",
+    "XAF": "FCFA"
+  }
+}

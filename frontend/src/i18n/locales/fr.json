@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "categories": "Catégories",
+    "cart": "Panier",
+    "account": "Compte",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "logout": "Déconnexion",
+    "search": "Rechercher des produits...",
+    "wishlist": "Liste de souhaits",
+    "orders": "Commandes",
+    "profile": "Profil"
+  },
+  "home": {
+    "hero": {
+      "title": "Découvrez des Produits Incroyables à Prix Avantageux",
+      "subtitle": "Achetez électronique, mode, maison & jardin, et plus",
+      "cta": "Acheter Maintenant"
+    },
+    "categories": "Acheter par Catégorie",
+    "bestSellers": "Meilleures Ventes",
+    "recommended": "Recommandé pour Vous",
+    "newArrivals": "Nouveautés"
+  },
+  "products": {
+    "title": "Produits",
+    "filters": "Filtres",
+    "sortBy": "Trier par",
+    "priceRange": "Gamme de Prix",
+    "category": "Catégorie",
+    "inStock": "En Stock",
+    "onSale": "En Promotion",
+    "addToCart": "Ajouter au Panier",
+    "addToWishlist": "Ajouter aux Favoris",
+    "outOfStock": "Rupture de Stock",
+    "viewDetails": "Voir Détails",
+    "compare": "Comparer",
+    "quickView": "Aperçu Rapide"
+  },
+  "cart": {
+    "title": "Panier d'Achat",
+    "empty": "Votre panier est vide",
+    "continueShopping": "Continuer les Achats",
+    "checkout": "Procéder au Paiement",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "tax": "Taxe",
+    "total": "Total",
+    "remove": "Supprimer",
+    "updateQuantity": "Mettre à Jour la Quantité",
+    "savedForLater": "Sauvegardé pour Plus Tard"
+  },
+  "checkout": {
+    "title": "Commande",
+    "shippingAddress": "Adresse de Livraison",
+    "paymentMethod": "Méthode de Paiement",
+    "orderSummary": "Résumé de Commande",
+    "placeOrder": "Passer Commande",
+    "processing": "Traitement en cours...",
+    "success": "Commande passée avec succès!",
+    "failed": "Paiement échoué. Veuillez réessayer."
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion à Votre Compte",
+      "email": "Adresse Email",
+      "password": "Mot de Passe",
+      "forgotPassword": "Mot de Passe Oublié?",
+      "loginButton": "Se Connecter",
+      "noAccount": "Pas de compte?",
+      "signUp": "Inscrivez-vous ici"
+    },
+    "register": {
+      "title": "Créer Votre Compte",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse Email",
+      "password": "Mot de Passe",
+      "confirmPassword": "Confirmer Mot de Passe",
+      "phone": "Numéro de Téléphone",
+      "agreeTerms": "J'accepte les Conditions Générales",
+      "registerButton": "Créer Compte",
+      "haveAccount": "Déjà un compte?",
+      "signIn": "Connectez-vous ici"
+    }
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "personalInfo": "Informations Personnelles",
+    "addresses": "Adresses",
+    "paymentMethods": "Méthodes de Paiement",
+    "preferences": "Préférences",
+    "security": "Sécurité",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer"
+  },
+  "orders": {
+    "title": "Historique des Commandes",
+    "orderNumber": "Commande #",
+    "date": "Date",
+    "status": "Statut",
+    "total": "Total",
+    "viewOrder": "Voir Commande",
+    "trackOrder": "Suivre Commande",
+    "reorder": "Commander à Nouveau",
+    "statuses": {
+      "pending": "En Attente",
+      "confirmed": "Confirmée",
+      "shipped": "Expédiée",
+      "delivered": "Livrée",
+      "cancelled": "Annulée"
+    }
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer Message",
+    "success": "Message envoyé avec succès!",
+    "error": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "ai": {
+    "chatTitle": "Assistant Mallgram",
+    "placeholder": "Demandez-moi tout sur les produits...",
+    "send": "Envoyer",
+    "typing": "L'assistant tape...",
+    "error": "Désolé, j'ai des difficultés actuellement. Veuillez réessayer.",
+    "suggestions": [
+      "Montrez-moi des robes noires sous 50000 FCFA",
+      "Quels sont les meilleurs smartphones?",
+      "Aidez-moi à trouver des cadeaux pour enfants",
+      "Comparer les prix d'ordinateurs portables"
+    ]
+  },
+  "footer": {
+    "aboutUs": "À Propos",
+    "customerService": "Service Client",
+    "myAccount": "Mon Compte",
+    "followUs": "Nous Suivre",
+    "newsletter": "Newsletter",
+    "newsletterText": "Abonnez-vous pour recevoir les mises à jour sur les nouveaux produits et offres",
+    "subscribe": "S'abonner",
+    "copyright": "© 2024 Mallgram. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "support": "Support"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "close": "Fermer",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "apply": "Appliquer",
+    "currency": "FCFA"
+  },
+  "countries": {
+    "za": "Afrique du Sud",
+    "cm": "Cameroun"
+  },
+  "currencies": {
+    "ZAR": "R",
+    "XAF": "FCFA"
+  }
+}
