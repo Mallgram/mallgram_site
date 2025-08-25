@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/logs/.ea95f082120c8d699df52c00f61c359192a8ff53-audit.json",
+    "files": [
+        {
+            "date": 1756125562857,
+            "name": "/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/logs/rejections-2025-08-25.log",
+            "hash": "07efb8a6b35cbe3ec04f777a09b9fed5c8c1aa1a2edde8f12d3de731c27d2d93"
+        }
+    ],
+    "hashType": "sha256"
+}

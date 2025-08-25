@@ -1,0 +1,42 @@
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at EmailService.initializeTransporter (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:32:43)\n' +
+    '    at new EmailService (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:24:14)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:564:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1487:12)',
+  timestamp: '2025-08-25 14:39:33'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  code: 'EAUTH',
+  response: '535 5.7.8 Error: authentication failed: (reason unavailable)',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email transporter verification failed: Invalid login: 535 5.7.8 Error: authentication failed: (reason unavailable)',
+  stack: 'Error: Invalid login: 535 5.7.8 Error: authentication failed: (reason unavailable)\n' +
+    '    at SMTPConnection._formatError (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n' +
+    '    at SMTPConnection.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n' +
+    '    at SMTPConnection._onData (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:561:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:392:5)',
+  timestamp: '2025-08-25 14:44:46'
+}

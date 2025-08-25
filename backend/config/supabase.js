@@ -74,7 +74,9 @@ const testConnection = async () => {
 };
 
 // Test connection on module load (non-blocking)
-testConnection();
+testConnection().catch(error => {
+    logger.error('Initial Supabase connection test failed:', error);
+});
 
 /**
  * Service role client for admin operations
