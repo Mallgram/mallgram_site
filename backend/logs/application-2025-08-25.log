@@ -1,0 +1,1014 @@
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  level: 'error',
+  message: 'Failed to initialize email transporter: nodemailer.createTransporter is not a function',
+  stack: 'TypeError: nodemailer.createTransporter is not a function\n' +
+    '    at EmailService.initializeTransporter (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:32:43)\n' +
+    '    at new EmailService (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:24:14)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/services/emailService.js:564:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1487:12)',
+  timestamp: '2025-08-25 14:39:33'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:39:45'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:44:44'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  code: 'EAUTH',
+  response: '535 5.7.8 Error: authentication failed: (reason unavailable)',
+  responseCode: 535,
+  command: 'AUTH PLAIN',
+  level: 'error',
+  message: 'Email transporter verification failed: Invalid login: 535 5.7.8 Error: authentication failed: (reason unavailable)',
+  stack: 'Error: Invalid login: 535 5.7.8 Error: authentication failed: (reason unavailable)\n' +
+    '    at SMTPConnection._formatError (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)\n' +
+    '    at SMTPConnection._actionAUTHComplete (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:1588:34)\n' +
+    '    at SMTPConnection.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)\n' +
+    '    at SMTPConnection._processResponse (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)\n' +
+    '    at SMTPConnection._onData (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)\n' +
+    '    at SMTPConnection._onSocketData (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)\n' +
+    '    at TLSSocket.emit (node:events:518:28)\n' +
+    '    at addChunk (node:internal/streams/readable:561:12)\n' +
+    '    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n' +
+    '    at Readable.push (node:internal/streams/readable:392:5)',
+  timestamp: '2025-08-25 14:44:46'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:47:30'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:47:30'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:53:22'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:53:22'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:55:12'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:55:17'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:55:17'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:00:25'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:02:41'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:02:42'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:02:42'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:03:50'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:03:54'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:03:54'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:04:29'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:04:33'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:04:33'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:05:09'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:05:15'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:05:15'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:06:05'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:06:09'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:06:09'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:07:11'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:07:17'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:07:17'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:07:55'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:00'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:00'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:36'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:41'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:41'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:08'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:13'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:13'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:35'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:40'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:40'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:10:54'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:11:00'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:11:00'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:08'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:13'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:13'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:54'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:59'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:13:00'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:14:35'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:14:39'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:14:39'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:15:24'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:15:29'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:15:29'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:06'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:11'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:11'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:37'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:43'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:43'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:17:34'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:17:39'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:17:39'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:18:22'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:18:27'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:18:27'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:05'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:06'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:06'
+}
+{
+  message: 'Test server initialization started',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:33'
+}
+{
+  message: 'About to call app.listen...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:33'
+}
+{
+  message: 'After app.listen call',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:33'
+}
+{
+  message: 'Test server running on port 3001',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:33'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:21:18'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:21:23'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:21:23'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:14'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:19'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:19'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:44'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:49'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:49'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:24:07'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:24:12'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:24:12'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:25:21'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:25:27'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:25:27'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:30'
+}
+{
+  message: 'Setting up API routes...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}
+{
+  message: 'API routes configured successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}
+{
+  message: 'About to set up error handling...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}
+{
+  message: '✅ Email service initialized successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:02'
+}
+{
+  message: 'Setting up API routes...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: 'API routes configured successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: 'About to set up error handling...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: 'About to start server...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: 'Starting server...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '🚀 Mallgram Backend Server started successfully!',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '📍 Environment: development',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '🌐 Server running on port 5000',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '📚 API Base URL: http://localhost:5000/api/v1',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '🔧 Health Check: http://localhost:5000/health',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: 'About to start cron jobs...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '🚀 All cron jobs started (0 jobs)',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '🕒 Cron jobs started successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '============================================================',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '✅ Supabase connection established successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  message: '✅ Email service initialized and verified successfully',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:29:07'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  requestId: '7gb3dvzj9mer5mutk',
+  method: 'GET',
+  url: '/health',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  level: 'info',
+  message: 'Incoming Request',
+  timestamp: '2025-08-25 15:30:14'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  requestId: '7gb3dvzj9mer5mutk',
+  method: 'GET',
+  url: '/health',
+  path: '/health',
+  statusCode: 200,
+  duration: '8ms',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  referer: undefined,
+  contentLength: '127',
+  userId: 'anonymous',
+  userEmail: 'anonymous',
+  userRole: 'guest',
+  level: 'info',
+  message: 'HTTP Request',
+  timestamp: '2025-08-25 15:30:14'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  requestId: 'wodnw36ybmer5muxq',
+  method: 'GET',
+  url: '/favicon.ico',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  level: 'info',
+  message: 'Incoming Request',
+  timestamp: '2025-08-25 15:30:14'
+}
+{
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  requestId: 'wodnw36ybmer5muxq',
+  method: 'GET',
+  url: '/favicon.ico',
+  path: '/',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  referer: undefined,
+  contentLength: '105',
+  userId: 'anonymous',
+  userEmail: 'anonymous',
+  userRole: 'guest',
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-25 15:30:14'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:32:56'
+}

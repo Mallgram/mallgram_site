@@ -29,7 +29,7 @@ class EmailService {
      */
     initializeTransporter() {
         try {
-            this.transporter = nodemailer.createTransporter({
+            this.transporter = nodemailer.createTransport({
                 host: process.env.SMTP_HOST,
                 port: parseInt(process.env.SMTP_PORT) || 587,
                 secure: process.env.SMTP_SECURE === 'true', // true for 465, false for other ports
@@ -45,17 +45,22 @@ class EmailService {
                 rateLimit: 5 // max 5 messages per second
             });
 
-            // Verify transporter configuration
+            // Verify transporter configuration (non-blocking)
             this.transporter.verify((error, success) => {
                 if (error) {
-                    logger.error('Email transporter verification failed:', error);
+                    logger.warn('⚠️ Email transporter verification failed. Email service will be disabled:', error.message);
+                    this.transporter = null; // Disable email service if verification fails
                 } else {
-                    logger.info('✅ Email service initialized successfully');
+                    logger.info('✅ Email service initialized and verified successfully');
                 }
             });
 
+            // Log initialization (before verification)
+            logger.info('✅ Email service initialized successfully');
+
         } catch (error) {
             logger.error('Failed to initialize email transporter:', error);
+            this.transporter = null; // Ensure transporter is null on failure
         }
     }
 
@@ -70,7 +75,13 @@ class EmailService {
         
         try {
             if (!this.transporter) {
-                throw new Error('Email transporter not initialized');
+                const errorMsg = 'Email service is disabled due to SMTP configuration issues. Please check your email settings.';
+                logger.warn(errorMsg);
+                return {
+                    success: false,
+                    error: errorMsg,
+                    duration: Date.now() - startTime
+                };
             }
 
             // Prepare email options

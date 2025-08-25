@@ -1,0 +1,4640 @@
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 14:39:44 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 576554,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 84942848,
+      heapTotal: 29085696,
+      heapUsed: 22541104,
+      external: 3393370,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.53, 0.16, 0.05 ], uptime: 90802.2 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:39:44'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 14:44:44 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 579015,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88379392,
+      heapTotal: 34852864,
+      heapUsed: 22736936,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.27, 0.13, 0.05 ], uptime: 91102.19 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:44:44'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 14:47:30 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 580113,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 89657344,
+      heapTotal: 34590720,
+      heapUsed: 23098896,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.42, 0.16, 0.07 ], uptime: 91268.33 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:47:30'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 14:53:22 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 582520,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88227840,
+      heapTotal: 34852864,
+      heapUsed: 23007656,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.29, 0.14, 0.08 ], uptime: 91619.61 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:53:22'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 14:55:17 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 583403,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88498176,
+      heapTotal: 34852864,
+      heapUsed: 23295328,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.34, 0.17, 0.1 ], uptime: 91734.99 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 14:55:17'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:00:24 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 585509,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 78983168,
+      heapTotal: 31969280,
+      heapUsed: 15457216,
+      external: 3207379,
+      arrayBuffers: 67738
+    }
+  },
+  os: { loadavg: [ 0.24, 0.12, 0.09 ], uptime: 92042.35 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:00:24'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:02:42 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 586443,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 82538496,
+      heapTotal: 33804288,
+      heapUsed: 21162512,
+      external: 3312855,
+      arrayBuffers: 67708
+    }
+  },
+  os: { loadavg: [ 0.35, 0.17, 0.11 ], uptime: 92179.63 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:02:42'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:03:54 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 586922,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 87977984,
+      heapTotal: 34590720,
+      heapUsed: 22177664,
+      external: 3367662,
+      arrayBuffers: 67700
+    }
+  },
+  os: { loadavg: [ 0.4, 0.2, 0.12 ], uptime: 92252.05 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:03:54'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:04:33 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 587272,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88068096,
+      heapTotal: 34590720,
+      heapUsed: 22167088,
+      external: 3367662,
+      arrayBuffers: 67700
+    }
+  },
+  os: { loadavg: [ 0.43, 0.22, 0.13 ], uptime: 92290.98 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:04:33'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:05:15 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 587633,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88559616,
+      heapTotal: 34852864,
+      heapUsed: 23040120,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.44, 0.24, 0.14 ], uptime: 92332.59 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:05:15'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:06:08 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 588072,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88416256,
+      heapTotal: 34852864,
+      heapUsed: 22838704,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.4, 0.25, 0.14 ], uptime: 92386.42 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:06:08'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:07:17 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 588556,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88178688,
+      heapTotal: 34590720,
+      heapUsed: 23102448,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.41, 0.26, 0.15 ], uptime: 92454.97 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:07:17'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:08:00 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 588789,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 89505792,
+      heapTotal: 34852864,
+      heapUsed: 23263024,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.43, 0.28, 0.16 ], uptime: 92497.89 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:00'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:08:41 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 589172,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88682496,
+      heapTotal: 34852864,
+      heapUsed: 23164656,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.49, 0.3, 0.18 ], uptime: 92539.13 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:08:41'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:09:13 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 589486,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88330240,
+      heapTotal: 34852864,
+      heapUsed: 23126808,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.57, 0.34, 0.19 ], uptime: 92571.14 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:13'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:09:40 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 589633,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88461312,
+      heapTotal: 34852864,
+      heapUsed: 23008304,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.6, 0.36, 0.2 ], uptime: 92597.55 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:09:40'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:11:00 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 590157,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88088576,
+      heapTotal: 34852864,
+      heapUsed: 23098368,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.38, 0.32, 0.2 ], uptime: 92677.64 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:11:00'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:12:13 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 590817,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88145920,
+      heapTotal: 34852864,
+      heapUsed: 22921024,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.33, 0.3, 0.19 ], uptime: 92750.94 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:13'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:12:59 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 591084,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88444928,
+      heapTotal: 34590720,
+      heapUsed: 22947056,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.43, 0.32, 0.2 ], uptime: 92797.3 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:12:59'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:14:39 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 591850,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 89407488,
+      heapTotal: 34852864,
+      heapUsed: 23171880,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.38, 0.29, 0.2 ], uptime: 92897.3 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:14:39'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:15:29 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 592242,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88137728,
+      heapTotal: 34590720,
+      heapUsed: 23159128,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.46, 0.31, 0.21 ], uptime: 92946.75 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:15:29'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:16:11 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 592615,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88973312,
+      heapTotal: 34590720,
+      heapUsed: 23027920,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.54, 0.34, 0.22 ], uptime: 92988.67 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:11'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:16:43 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 592799,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88215552,
+      heapTotal: 34590720,
+      heapUsed: 23009704,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.52, 0.35, 0.23 ], uptime: 93020.67 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:16:43'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:17:39 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 593251,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88293376,
+      heapTotal: 34590720,
+      heapUsed: 23108296,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.54, 0.38, 0.24 ], uptime: 93076.6 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:17:39'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:18:26 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 593644,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88358912,
+      heapTotal: 34590720,
+      heapUsed: 22947984,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.65, 0.43, 0.27 ], uptime: 93124.38 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:18:26'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:19:05 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 594011,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 79630336,
+      heapTotal: 33542144,
+      heapUsed: 19238248,
+      external: 3313111,
+      arrayBuffers: 67964
+    }
+  },
+  os: { loadavg: [ 0.53, 0.43, 0.27 ], uptime: 93163.39 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:19:05'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:21:23 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 594955,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88059904,
+      heapTotal: 34590720,
+      heapUsed: 23205608,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.28, 0.32, 0.26 ], uptime: 93301.3 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:21:23'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:22:19 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 595411,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88612864,
+      heapTotal: 34590720,
+      heapUsed: 23366016,
+      external: 3367918,
+      arrayBuffers: 67956
+    }
+  },
+  os: { loadavg: [ 0.33, 0.32, 0.26 ], uptime: 93356.54 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:19'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:22:49 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 595612,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88895488,
+      heapTotal: 34852864,
+      heapUsed: 23117480,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.49, 0.35, 0.27 ], uptime: 93386.77 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:22:49'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:24:12 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 596344,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88084480,
+      heapTotal: 34590720,
+      heapUsed: 23044616,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.39, 0.33, 0.27 ], uptime: 93469.76 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:24:12'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:92:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:25:27 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 596870,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 89051136,
+      heapTotal: 34852864,
+      heapUsed: 23228232,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.39, 0.32, 0.27 ], uptime: 93544.79 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 92,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:25:27'
+}
+{
+  error: TypeError: app.use() requires a middleware function
+      at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)
+      at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:188:5)
+      at Module._compile (node:internal/modules/cjs/loader:1730:14)
+      at Object..js (node:internal/modules/cjs/loader:1895:10)
+      at Module.load (node:internal/modules/cjs/loader:1465:32)
+      at Function._load (node:internal/modules/cjs/loader:1282:12)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+      at node:internal/main/run_main_module:36:49,
+  level: 'error',
+  message: 'uncaughtException: app.use() requires a middleware function\n' +
+    'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:188:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  stack: 'TypeError: app.use() requires a middleware function\n' +
+    '    at Function.use (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js:217:11)\n' +
+    '    at Object.<anonymous> (/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js:188:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1730:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1895:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1465:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1282:12)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)\n' +
+    '    at node:internal/main/run_main_module:36:49',
+  exception: true,
+  date: 'Mon Aug 25 2025 15:27:36 GMT+0200 (Central European Summer Time)',
+  process: {
+    pid: 597794,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend',
+    execPath: '/usr/bin/node',
+    version: 'v22.17.0',
+    argv: [
+      '/usr/bin/node',
+      '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js'
+    ],
+    memoryUsage: {
+      rss: 88715264,
+      heapTotal: 34852864,
+      heapUsed: 23457040,
+      external: 3393378,
+      arrayBuffers: 68132
+    }
+  },
+  os: { loadavg: [ 0.34, 0.28, 0.26 ], uptime: 93674.07 },
+  trace: [
+    {
+      column: 11,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/node_modules/express/lib/application.js',
+      function: 'Function.use',
+      line: 217,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: '/mnt/c/Users/temmo/Desktop/PROJECTS/mallgram/mallgram_site/backend/server.js',
+      function: null,
+      line: 188,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1730,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Object..js',
+      line: 1895,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1465,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1282,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 171,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 49,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    }
+  ],
+  service: 'mallgram-backend',
+  version: '1.0.0',
+  environment: 'development',
+  timestamp: '2025-08-25 15:27:36'
+}

@@ -35,8 +35,8 @@ const aiRoutes = require('./routes/ai');
 const emailRoutes = require('./routes/emails');
 
 // Import middleware
-const errorHandler = require('./middleware/errorHandler');
-const requestLogger = require('./middleware/requestLogger');
+const { errorHandler } = require('./middleware/errorHandler');
+const { requestLogger } = require('./middleware/requestLogger');
 
 // Initialize Express app
 const app = express();
@@ -143,12 +143,18 @@ app.get('/api/status', async (req, res) => {
 // API ROUTES
 // ===================================================================
 
+logger.info('Setting up API routes...');
+
 const API_PREFIX = `/api/${process.env.API_VERSION || 'v1'}`;
 
 // Backend-specific routes only
 app.use(`${API_PREFIX}/payments`, paymentRoutes);  // Payment processing
 app.use(`${API_PREFIX}/ai`, aiRoutes);             // AI services
 app.use(`${API_PREFIX}/emails`, emailRoutes);      // Email services
+
+logger.info('API routes configured successfully');
+
+logger.info('About to set up error handling...');
 
 // Default API info endpoint
 app.get(`${API_PREFIX}`, (req, res) => {
@@ -190,46 +196,42 @@ const gracefulShutdown = (signal) => {
     logger.info(`Received ${signal}. Starting graceful shutdown...`);
     
     // Stop accepting new requests
-    server.close(() => {
-        logger.info('HTTP server closed.');
+    if (typeof server !== 'undefined' && server) {
+        server.close(() => {
+            logger.info('HTTP server closed.');
+            
+            // Stop cron jobs
+            if (process.env.ENABLE_CRON_JOBS === 'true') {
+                cronManager.stopAllJobs();
+                logger.info('Cron jobs stopped.');
+            }
+            
+            // Close database connections if needed
+            // supabaseClient doesn't need explicit closing
+            
+            logger.info('Graceful shutdown completed.');
+            process.exit(0);
+        });
         
-        // Stop cron jobs
-        if (process.env.ENABLE_CRON_JOBS === 'true') {
-            cronManager.stopAllJobs();
-            logger.info('Cron jobs stopped.');
-        }
-        
-        // Close database connections if needed
-        // supabaseClient doesn't need explicit closing
-        
-        logger.info('Graceful shutdown completed.');
+        // Force shutdown after 30 seconds
+        setTimeout(() => {
+            logger.error('Could not close connections in time, forcefully shutting down');
+            process.exit(1);
+        }, 30000);
+    } else {
+        logger.info('Server not started yet, exiting...');
         process.exit(0);
-    });
-    
-    // Force shutdown after 30 seconds
-    setTimeout(() => {
-        logger.error('Could not close connections in time, forcefully shutting down');
-        process.exit(1);
-    }, 30000);
+    }
 };
 
 // Handle shutdown signals
 process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
 process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 
-// Handle uncaught exceptions
-process.on('uncaughtException', (error) => {
-    logger.error('Uncaught Exception:', error);
-    process.exit(1);
-});
-
-// Handle unhandled promise rejections
-process.on('unhandledRejection', (reason, promise) => {
-    logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
-    process.exit(1);
-});
+logger.info('About to start server...');
 
 // Start the server
+logger.info('Starting server...');
 const server = app.listen(PORT, () => {
     logger.info(`🚀 Mallgram Backend Server started successfully!`);
     logger.info(`📍 Environment: ${process.env.NODE_ENV}`);
@@ -237,13 +239,39 @@ const server = app.listen(PORT, () => {
     logger.info(`📚 API Base URL: http://localhost:${PORT}${API_PREFIX}`);
     logger.info(`🔧 Health Check: http://localhost:${PORT}/health`);
     
+    logger.info('About to start cron jobs...');
+    
     // Start cron jobs if enabled
     if (process.env.ENABLE_CRON_JOBS === 'true') {
-        cronManager.startAllJobs();
-        logger.info('🕒 Cron jobs started successfully');
+        try {
+            cronManager.startAllJobs();
+            logger.info('🕒 Cron jobs started successfully');
+        } catch (error) {
+            logger.error('Failed to start cron jobs:', error);
+        }
     }
     
     logger.info('='.repeat(60));
+});
+
+server.on('error', (error) => {
+    logger.error('Server startup error:', error);
+});
+
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+    logger.error('Uncaught Exception:', error);
+    logger.error('Stack trace:', error.stack);
+    process.exit(1);
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (reason, promise) => {
+    logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+    if (reason && reason.stack) {
+        logger.error('Stack trace:', reason.stack);
+    }
+    process.exit(1);
 });
 
 module.exports = app;
